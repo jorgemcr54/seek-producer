@@ -1,4 +1,4 @@
-package infraestructure.entrypoints;
+package com.personal.seekproducer.infraestructure.entrypoints;
 
 import org.reactivecommons.async.api.HandlerRegistry;
 import org.springframework.context.annotation.Bean;

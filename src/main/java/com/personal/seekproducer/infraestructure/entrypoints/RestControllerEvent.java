@@ -1,6 +1,6 @@
-package infraestructure.entrypoints;
+package com.personal.seekproducer.infraestructure.entrypoints;
 
-import infraestructure.domain.model.PlaceToHide;
+import com.personal.seekproducer.domain.model.PlaceToHide;
 import org.reactivecommons.api.domain.DomainEvent;
 import org.reactivecommons.api.domain.DomainEventBus;
 import org.springframework.beans.factory.annotation.Autowired;

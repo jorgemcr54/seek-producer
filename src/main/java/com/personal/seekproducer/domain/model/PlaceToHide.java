@@ -1,4 +1,4 @@
-package infraestructure.domain.model;
+package com.personal.seekproducer.domain.model;
 
 public class PlaceToHide {
     int floor;
