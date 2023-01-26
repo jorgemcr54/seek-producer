@@ -22,8 +22,7 @@ public class RestControllerEvent {
         PlaceToHide placeToHide = new PlaceToHide();
         placeToHide.setFloor(floor);
         placeToHide.setRoom(room);
-        DomainEvent<PlaceToHide> event =
-                new DomainEvent<PlaceToHide>("place.searched", UUID.randomUUID().toString(),placeToHide);
+        DomainEvent<PlaceToHide> event = new DomainEvent<PlaceToHide>("place.searched", UUID.randomUUID().toString(),placeToHide);
         return Mono.from(eventBus.emit(event)).thenReturn("Place searched");
     }
 
